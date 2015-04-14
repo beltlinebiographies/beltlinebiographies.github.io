@@ -1,0 +1,38 @@
+.exhibit-image img {
+  width: 100%; }
+
+.google-map {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 10; }
+
+.main-console {
+  background: orange; }
+  .main-console.ember-view {
+    height: 40px; }
+    .main-console.ember-view h3 {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      padding-top: 5px;
+      height: 40px;
+      background-color: black;
+      color: white;
+      border: solid 1px gray;
+      cursor: pointer; }
+      .main-console.ember-view h3:hover {
+        background-color: gray; }
+
+html, body {
+  height: 100%; }
+  html .liquid-container, html .liquid-child, html .google-map, html .ember-view, body .liquid-container, body .liquid-child, body .google-map, body .ember-view {
+    height: 100%; }
+
+.col-xs-6, .col-sm-6 {
+  margin: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=historic-locations.css.map */
